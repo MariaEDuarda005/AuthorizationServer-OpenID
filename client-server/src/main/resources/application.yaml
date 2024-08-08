@@ -4,6 +4,7 @@
 
 server:
   port : 8081
+
 spring:
   security:
     oauth2:
@@ -19,4 +20,4 @@ spring:
             client-name: client-server-oidc
         provider:
           spring:
-            issuer-uri: http://localhost:9000
+            issuer-uri: http://127.0.0.1:9000
